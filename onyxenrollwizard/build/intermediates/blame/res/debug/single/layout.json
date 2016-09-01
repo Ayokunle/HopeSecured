@@ -1,0 +1,266 @@
+[
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\form.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\src\\main\\res\\layout\\form.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\activity_guide_main.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.dft.android\\onyx-enroll-wizard\\4.1.3\\res\\layout\\activity_guide_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\base_layout_verify.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\src\\main\\res\\layout\\base_layout_verify.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\help_layout.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.dft.android\\onyx-enroll-wizard\\4.1.3\\res\\layout\\help_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\preview_enroll_fragment.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.dft.android\\onyx-enroll-wizard\\4.1.3\\res\\layout\\preview_enroll_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\layout_snackbar.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\layout\\layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\preview_fingerprint_layout.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.dft.android\\onyx-enroll-wizard\\4.1.3\\res\\layout\\preview_fingerprint_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.1\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\tips_layout.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.dft.android\\onyx-enroll-wizard\\4.1.3\\res\\layout\\tips_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_simple_dropdown_hint.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.1\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\enroll_wizard.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.dft.android\\onyx-enroll-wizard\\4.1.3\\res\\layout\\enroll_wizard.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_enroll.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.dft.android\\onyx-enroll-wizard\\4.1.3\\res\\layout\\fragment_enroll.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_depth.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.dft.android\\onyx-enroll-wizard\\4.1.3\\res\\layout\\fragment_depth.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.1\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_finger_selection.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.dft.android\\onyx-enroll-wizard\\4.1.3\\res\\layout\\fragment_finger_selection.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\activity_onyx_enroll_wizard_sample_main.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\src\\main\\res\\layout\\activity_onyx_enroll_wizard_sample_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\base_layout.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.dft.android\\onyx-enroll-wizard\\4.1.3\\res\\layout\\base_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\layout_snackbar_include.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\layout\\layout_snackbar_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\confirm_or_fail_layout.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.dft.android\\onyx-enroll-wizard\\4.1.3\\res\\layout\\confirm_or_fail_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_positioning.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.dft.android\\onyx-enroll-wizard\\4.1.3\\res\\layout\\fragment_positioning.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.1\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_welcome.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.dft.android\\onyx-enroll-wizard\\4.1.3\\res\\layout\\fragment_welcome.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\begin_enroll_layout.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.dft.android\\onyx-enroll-wizard\\4.1.3\\res\\layout\\begin_enroll_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\activity_enroll.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\onyx-enroll-wizard-sample-app1\\onyxenrollwizardsampleapp\\src\\main\\res\\layout\\activity_enroll.xml"
+    }
+]

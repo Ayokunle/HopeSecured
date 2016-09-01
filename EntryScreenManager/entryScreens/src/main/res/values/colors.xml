@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorBackground">#47b9d2</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="colorBarActive">#5daed4</color>
+    <color name="colorBar">#cbe3ed</color>
+
+    <color name="login_primary">#E43F3F</color>
+    <color name="login_primary_dark">#E12929</color>
+    <color name="login_accent">#FFFFFF</color>
+
+    <color name="iron">#CCCCCC</color>
+</resources>

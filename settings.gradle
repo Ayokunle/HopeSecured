@@ -1,0 +1,3 @@
+include ':app', ':entryScreen', ':onyxenrollwizard'
+project(':entryScreen').projectDir = new File('EntryScreenManager/entryScreens')
+project(':onyxenrollwizard').projectDir = new File('onyxenrollwizardsampleapp')

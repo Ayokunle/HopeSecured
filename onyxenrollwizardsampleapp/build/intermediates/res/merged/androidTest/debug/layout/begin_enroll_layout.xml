@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+	    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/base_layout_background_full" />
+    
+    <!-- 
+    <TextView
+        android:id="@+id/begin_enroll_activity_title_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/begin_enroll_activity_title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/white" />
+    
+    <FrameLayout 
+       	android:id="@+id/youtube_fragment_content"
+       	android:layout_width="match_parent"
+       	android:layout_height="match_parent"
+       	android:layout_below="@id/begin_enroll_activity_title_textView" />
+       	
+       -->
+       
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="false"
+        android:layout_centerInParent="false"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+        
+        <TextView
+	 	    android:id="@+id/begin_enroll_activity_message"
+	 	    android:layout_width="wrap_content"
+	 	    android:layout_height="wrap_content"
+	 	    android:layout_centerHorizontal="true"
+	 	    android:layout_gravity="center_horizontal"
+	 	    android:layout_marginTop="10dp"
+	 	    android:text="@string/begin_enroll_activity_message"
+	 	    android:textAppearance="?android:attr/textAppearanceLarge"
+	 	    android:textColor="#ffffffff" />
+        
+	    <LinearLayout
+	        android:id="@+id/begin_enroll_finger_layout"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:baselineAligned="false"
+	        android:gravity="center_vertical|center_horizontal"
+	        android:orientation="horizontal" >
+	      	
+			<FrameLayout
+			    android:id="@+id/begin_enroll_fingers_left_frame"
+			    android:layout_width="match_parent"
+	        	android:layout_height="wrap_content"
+	        	android:layout_weight="0.5" >
+			        
+			    <ImageView
+			        android:id="@+id/begin_enroll_fingers_left_image"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:adjustViewBounds="true"
+			        android:baselineAlignBottom="false"
+			        android:contentDescription="@string/base_layout_background_content_desc"
+			        android:cropToPadding="false"
+			        android:scaleType="fitCenter"
+			        android:src="@drawable/fingers_default" />
+			        
+			    <ImageView
+			        android:id="@+id/begin_enroll_fingers_left_hotspots"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:adjustViewBounds="true"
+			        android:contentDescription="@string/base_layout_background_content_desc"
+			        android:scaleType="fitCenter"
+			        android:src="@drawable/finger_hotspots"
+			        android:visibility="invisible" />
+	
+			    <TextView
+			        android:id="@+id/base_layout_guide_words"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_vertical"
+			        android:padding="2dp"
+			        android:text="@string/left_caps"
+			        android:textAppearance="?android:attr/textAppearanceMedium"
+			        android:textColor="#ffffffff" />
+			          		    
+			</FrameLayout>
+			    
+			<FrameLayout
+			    android:id="@+id/begin_enroll_fingers_right_frame"
+			    android:layout_width="match_parent"
+	        	android:layout_height="wrap_content"
+	        	android:layout_weight="0.5" >
+		    
+			    <ImageView
+			        android:id="@+id/begin_enroll_fingers_right_image"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:adjustViewBounds="true"
+			        android:contentDescription="@string/base_layout_background_content_desc"
+			        android:scaleType="fitCenter"
+			        android:scaleX="-1"
+			        android:src="@drawable/fingers_default" />
+			        
+			   <ImageView
+			       android:id="@+id/begin_enroll_fingers_right_hotspots"
+			       android:layout_width="match_parent"
+			       android:layout_height="match_parent"
+			       android:adjustViewBounds="true"
+			       android:contentDescription="@string/base_layout_background_content_desc"
+			       android:scaleType="fitCenter"
+			       android:src="@drawable/finger_hotspots"
+			       android:visibility="invisible" />
+	
+			   <TextView
+			       android:id="@+id/textView2"
+			       android:layout_width="wrap_content"
+			       android:layout_height="wrap_content"
+			       android:layout_gravity="end|center_vertical"
+			       android:padding="2dp"
+			       android:text="@string/right_caps"
+			       android:textAppearance="?android:attr/textAppearanceMedium"
+			       android:textColor="#ffffffff" />
+			    
+			</FrameLayout>
+	 		    
+	 	</LinearLayout>
+        
+    </LinearLayout>
+
+</RelativeLayout>
+<!-- From: file:/C:/AndroidstudioProjects/onyx-enroll-wizard/app/src/main/res/layout/begin_enroll_layout.xml -->

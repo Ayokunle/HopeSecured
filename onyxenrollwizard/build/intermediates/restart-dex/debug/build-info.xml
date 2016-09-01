@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="19"
+    density="xhdpi"
+    format="7"
+    timestamp="55517471115679"
+    token="7517229989158922577" >
+
+    <task
+        name="javac"
+        duration="22278" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="2839" />
+    <task
+        name="verifier"
+        duration="1051" />
+
+    <artifact
+        location="C:\Users\Ayokunle\Dropbox\Coding\onyx-enroll-wizard-sample-app1\onyxenrollwizardsampleapp\build\outputs\apk\onyxenrollwizardsampleapp-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="55517471115679" >
+        <artifact
+            location="C:\Users\Ayokunle\Dropbox\Coding\onyx-enroll-wizard-sample-app1\onyxenrollwizardsampleapp\build\outputs\apk\onyxenrollwizardsampleapp-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
