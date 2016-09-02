@@ -8,12 +8,12 @@
         "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured_old\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.0\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
-        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_part_time.xml"
-    },
-    {
         "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured_old\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\activity_onyx_enroll_wizard_sample_main.xml",
         "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured_old\\onyxenrollwizardsampleapp\\src\\main\\res\\layout\\activity_onyx_enroll_wizard_sample_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured_old\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
@@ -36,16 +36,16 @@
         "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured_old\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.dft.android\\onyx-enroll-wizard\\4.1.3\\res\\layout\\fragment_enroll.xml"
     },
     {
-        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured_old\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured_old\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured_old\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\enroll_wizard.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured_old\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.dft.android\\onyx-enroll-wizard\\4.1.3\\res\\layout\\enroll_wizard.xml"
     },
     {
         "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured_old\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\form.xml",
         "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured_old\\onyxenrollwizardsampleapp\\src\\main\\res\\layout\\form.xml"
     },
     {
-        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured_old\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\enroll_wizard.xml",
-        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured_old\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.dft.android\\onyx-enroll-wizard\\4.1.3\\res\\layout\\enroll_wizard.xml"
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured_old\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured_old\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured_old\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",

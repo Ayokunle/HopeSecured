@@ -8,12 +8,12 @@
         "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\anim\\abc_slide_out_bottom.xml"
-    },
-    {
         "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_top.xml",
         "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
         "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured_old\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_exit.xml",
