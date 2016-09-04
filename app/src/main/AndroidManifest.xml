@@ -18,6 +18,7 @@
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
@@ -34,7 +35,11 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".EnrollActivity"
-            android:label="@string/title_activity_enroll"></activity>
+            android:label="@string/title_activity_enroll" />
+        <activity
+            android:name=".JobHistoryActivity"
+            android:label="JobHistoryActivity" />
+
     </application>
 
 </manifest>

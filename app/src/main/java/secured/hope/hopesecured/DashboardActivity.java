@@ -23,8 +23,6 @@ public class DashboardActivity extends AppCompatActivity {
         Button enroll = (Button) findViewById(R.id.enroll);
         enroll.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                // Perform action on click
-
                 Intent intent = new Intent(DashboardActivity.this, EnrollActivity.class);
                 startActivity(intent);
             }

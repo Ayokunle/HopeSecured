@@ -3,143 +3,153 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
     tools:context="secured.hope.hopesecured.EnrollActivity">
 
-    <ScrollView
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:scrollbars="none">
+        android:text="Basic Information"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
 
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_below="@+id/title"
+        android:layout_alignParentStart="true">
+
+    <LinearLayout
+        android:id="@+id/scroll_layer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <!--fname and sname-->
         <LinearLayout
-            android:id="@+id/scroll_layer"
-            android:layout_width="match_parent"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="?attr/actionBarSize"
-            android:orientation="vertical"
-            android:paddingBottom="60dp"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp">
+            android:orientation="horizontal"
+            android:weightSum="2">
 
-            <!--fname and sname-->
-            <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:weightSum="2">
-
-                <EditText
-                    android:id="@+id/fname"
-                    android:layout_weight="1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:singleLine="true"
-                    android:hint="@string/hint_name"/>
-
-                <EditText
-                    android:id="@+id/sname"
-                    android:layout_weight="1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:singleLine="true"
-                    android:hint="@string/hint_name" />
-            </LinearLayout>
-
-            <!--email-->
             <EditText
-                android:id="@+id/email"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="textEmailAddress"
-                android:hint="@string/hint_email" />
-
-            <!--Number-->
-            <EditText
-                android:id="@+id/number"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="number"
-                android:hint="Mobile No." />
-
-            <!--DOB-->
-            <RelativeLayout
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:weightSum="2">
-
-                <EditText
-                    android:id="@+id/DOB"
-                    android:editable="false"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:singleLine="true"
-                    android:hint="D.O.B."
-                    android:layout_alignParentStart="true"
-                    android:layout_toStartOf="@+id/DOB_button"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentBottom="true" />
-
-                <Button
-                    android:id="@+id/DOB_button"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="D.O.B."
-                    android:background="@color/colorPrimary"
-                    android:textColor="@android:color/white"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignParentEnd="true" />
-            </RelativeLayout>
-
-            <!--Address-->
-            <EditText
-                android:id="@+id/address"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="text"
-                android:hint="Address" />
-
-            <!--City-->
-            <EditText
-                android:id="@+id/city"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="text"
-                android:hint="City" />
-
-            <!--State-->
-            <EditText
-                android:id="@+id/state"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="text"
-                android:hint="State" />
-
-            <!--Country-->
-            <EditText
-                android:id="@+id/country"
-                android:inputType="text"
+                android:id="@+id/fname"
+                android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:singleLine="true"
-                android:hint="Country" />
+                android:hint="@string/hint_name"/>
 
-            <RelativeLayout
+            <EditText
+                android:id="@+id/sname"
+                android:layout_weight="1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <Button
-                    android:id="@+id/nextForm"
-                    android:layout_width="200dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginBottom="20dp"
-                    android:text="NEXT"
-                    android:background="@color/colorPrimary"
-                    android:textColor="@android:color/white"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentEnd="true" />
-
-            </RelativeLayout>
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:hint="Surname" />
         </LinearLayout>
+
+        <!--email-->
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="@string/hint_email" />
+
+        <!--Number-->
+        <EditText
+            android:id="@+id/number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Mobile No." />
+
+        <!--DOB-->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <EditText
+                android:id="@+id/DOB"
+                android:editable="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:hint="D.O.B."
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@+id/DOB_button" />
+
+            <Button
+                android:id="@+id/DOB_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D.O.B."
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+        <!--Address-->
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="Address" />
+
+        <!--City-->
+        <EditText
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="City" />
+
+        <!--State-->
+        <EditText
+            android:id="@+id/state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="State" />
+
+        <!--Country-->
+        <EditText
+            android:id="@+id/country"
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:hint="Country" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/jobHistory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="NEXT"
+                android:background="@color/colorPrimary"
+                android:textColor="@android:color/white"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true" />
+
+        </RelativeLayout>
+    </LinearLayout>
     </ScrollView>
 </RelativeLayout>

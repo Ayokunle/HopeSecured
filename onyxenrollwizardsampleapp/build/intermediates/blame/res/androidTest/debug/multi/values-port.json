@@ -1,29 +1,5 @@
 [
     {
-        "outputFile": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured_old\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-port\\values-port.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 55,
-                    "endOffset": 106
-                },
-                "from": {
-                    "file": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured_old\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\values-port\\values-port.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 291,
-                        "endColumn": 55,
-                        "endOffset": 342
-                    }
-                }
-            }
-        ]
-    },
-    {
         "outputFile": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-port\\values-port.xml",
         "map": [
             {

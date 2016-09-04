@@ -49,6 +49,15 @@ public class EnrollActivity extends AppCompatActivity implements DatePickerDialo
         DOB.measure(0, 0);
         int height = DOB.getMeasuredHeight();
 
+        Button next = (Button)
+                findViewById(R.id.jobHistory);
+        next.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(EnrollActivity.this, JobHistoryActivity.class);
+                startActivity(intent);
+            }
+        });
+
         Button DOB_button = (Button)
                 findViewById(R.id.DOB_button);
         DOB_button.setHeight(height);

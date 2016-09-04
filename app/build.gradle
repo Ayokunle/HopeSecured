@@ -36,7 +36,7 @@ dependencies {
 
     compile project(':entryScreen')
     compile 'com.wdullaer:materialdatetimepicker:2.5.0'
-    //    compile project(':onyxenrollwizard')
+    compile project(':onyxenrollwizard')
 
     compile 'com.android.support:support-v4:24.2.0'
     compile 'com.android.support:appcompat-v7:24.2.0'

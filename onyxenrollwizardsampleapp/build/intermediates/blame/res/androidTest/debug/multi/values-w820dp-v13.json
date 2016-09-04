@@ -1,29 +1,5 @@
 [
     {
-        "outputFile": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured_old\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-w820dp-v13\\values-w820dp-v13.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 57,
-                    "endOffset": 108
-                },
-                "from": {
-                    "file": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured_old\\onyxenrollwizardsampleapp\\build\\intermediates\\bundles\\debug\\res\\values-w820dp-v13\\values-w820dp-v13.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 57,
-                        "endOffset": 108
-                    }
-                }
-            }
-        ]
-    },
-    {
         "outputFile": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-w820dp-v13\\values-w820dp-v13.xml",
         "map": [
             {
