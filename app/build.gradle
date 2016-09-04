@@ -34,14 +34,10 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
 
-//    compile 'com.android.support:appcompat-v7:22.2.0'
-//    compile 'com.android.support:design:24.2.0'
-
-//    compile 'com.android.support:appcompat-v7:21.1.2'
-//    compile 'com.android.support:design:21.1.2'
-
     compile project(':entryScreen')
+    compile 'com.wdullaer:materialdatetimepicker:2.5.0'
     //    compile project(':onyxenrollwizard')
+
     compile 'com.android.support:support-v4:24.2.0'
     compile 'com.android.support:appcompat-v7:24.2.0'
     compile 'com.android.support:support-annotations:24.2.0'
