@@ -1,5 +1,6 @@
 package secured.hope.hopesecured;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -20,6 +21,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
@@ -28,71 +30,86 @@ import com.kunall17.entryscreenmanager.Fragments.Enroll;
 import com.kunall17.entryscreenmanager.Fragments.Scan;
 import com.kunall17.entryscreenmanager.Fragments.Verify;
 
-public class EnrollActivity extends AppCompatActivity {
+import com.wdullaer.materialdatetimepicker.Utils;
+import com.wdullaer.materialdatetimepicker.date.DatePickerDialog;
 
+import java.util.Calendar;
+
+
+public class EnrollActivity extends AppCompatActivity implements DatePickerDialog.OnDateSetListener {
+
+    EditText DOB;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_enroll);
 
-        /*
-        DisplayMetrics displaymetrics = new DisplayMetrics();
-        this.getWindowManager().getDefaultDisplay().getMetrics(displaymetrics);
-        int screenHeight = displaymetrics.heightPixels;
+        DOB = (EditText) findViewById(R.id.DOB);
+        DOB.measure(0, 0);
+        int height = DOB.getMeasuredHeight();
 
-        int actionBarHeight = 0;
-        TypedValue tv = new TypedValue();
-        if (this.getTheme().resolveAttribute(android.R.attr.actionBarSize, tv, true)) {
-            actionBarHeight = TypedValue.complexToDimensionPixelSize(tv.data,getResources().getDisplayMetrics());
-        }
-
-        LinearLayout ll = (LinearLayout) findViewById(R.id.scroll_layer);
-        ll.setMinimumHeight(screenHeight - actionBarHeight);
-        */
-
-//        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-//        setSupportActionBar(toolbar);
-
-        EditText edit = (EditText) findViewById(R.id.DOB);
-        edit.measure(0, 0);
-        int height = edit.getMeasuredHeight();
-
-        AppCompatButton DOB_button = (AppCompatButton)
+        Button DOB_button = (Button)
                 findViewById(R.id.DOB_button);
         DOB_button.setHeight(height);
+        DOB_button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
 
-        EditText country = (EditText) findViewById(R.id.country);
-        country.measure(0, 0);
-        height = country.getMeasuredHeight();
+                Calendar now = Calendar.getInstance();
+                DatePickerDialog dpd = DatePickerDialog.newInstance(
+                        EnrollActivity.this,
+                        now.get(Calendar.YEAR)-18,
+                        now.get(Calendar.MONTH),
+                        now.get(Calendar.DAY_OF_MONTH)
+                );
+                dpd.setThemeDark(false);
+                dpd.vibrate(true);
+                dpd.dismissOnPause(true);
+                dpd.showYearPickerFirst(true);
+                dpd.setYearRange(now.get(Calendar.YEAR)-70, now.get(Calendar.YEAR)-18);
+                if (true) {
+                    dpd.setAccentColor(Color.parseColor("#9C27B0"));
+                }
+                if (true) {
+                    dpd.setTitle("DATE OF BIRTH");
+                }
+                if (true) {
+//                    Calendar[] dates = new Calendar[13];
+//                    for (int i = -6; i <= 6; i++) {
+//                        Calendar date = Calendar.getInstance();
+//                        date.add(Calendar.MONTH, i);
+//                        dates[i+6] = date;
+//                    }
+//                    dpd.setSelectableDays(dates);
+                }
+                if (true) {
+//                    Calendar[] dates = new Calendar[13];
+//                    for (int i = -6; i <= 6; i++) {
+//                        Calendar date = Calendar.getInstance();
+//                        date.add(Calendar.WEEK_OF_YEAR, i);
+//                        dates[i+6] = date;
+//                    }
+//                    dpd.setHighlightedDays(dates);
+                }
+                if (true) {
+//                    Calendar[] dates = new Calendar[3];
+//                    for (int i = -1; i <= 1; i++) {
+//                        Calendar date = Calendar.getInstance();
+//                        date.add(Calendar.DAY_OF_MONTH, i);
+//                        dates[i+1] = date;
+//                    }
+//                    dpd.setDisabledDays(dates);
+                }
+                dpd.show(getFragmentManager(), "Datepickerdialog");
 
-        AppCompatButton nextForm = (AppCompatButton)
-                findViewById(R.id.nextForm);
-        nextForm.setHeight(height);
-
+            }
+        });
     }
 
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_enroll, menu);
-        return true;
+    public void onDateSet(DatePickerDialog view, int year, int monthOfYear, int dayOfMonth) {
+        String date = dayOfMonth+"/"+(++monthOfYear)+"/"+year;
+        DOB.setText(date);
     }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
 }

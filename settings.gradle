@@ -1,3 +1,4 @@
-include ':app', ':entryScreen', ':onyxenrollwizard', ':MaterialDateTimePicker', ':library', ':MaterialDateTime'
+include ':app', ':entryScreen', ':onyxenrollwizard', ':MaterialDateTimeLibrary'
 project(':entryScreen').projectDir = new File('EntryScreenManager/entryScreens')
 project(':onyxenrollwizard').projectDir = new File('onyxenrollwizardsampleapp')
+project(':MaterialDateTimeLibrary').projectDir = new File('MaterialDateTimePicker/library')

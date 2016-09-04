@@ -10,10 +10,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/EntryScreenManager/entryScreens" />
-            <option value="$PROJECT_DIR$/MaterialDateTime" />
-            <option value="$PROJECT_DIR$/MaterialDateTimePicker" />
+            <option value="$PROJECT_DIR$/MaterialDateTimePicker/library" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/library" />
             <option value="$PROJECT_DIR$/onyxenrollwizardsampleapp" />
           </set>
         </option>
@@ -21,10 +19,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/EntryScreenManager/entryScreens" />
-            <option value="$PROJECT_DIR$/MaterialDateTime" />
-            <option value="$PROJECT_DIR$/MaterialDateTimePicker" />
+            <option value="$PROJECT_DIR$/MaterialDateTimePicker/library" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/library" />
             <option value="$PROJECT_DIR$/onyxenrollwizardsampleapp" />
           </set>
         </option>
