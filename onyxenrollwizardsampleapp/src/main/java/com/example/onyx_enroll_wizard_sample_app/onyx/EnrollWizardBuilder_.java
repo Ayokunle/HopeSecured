@@ -8,8 +8,9 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap.CompressFormat;
 import android.os.Bundle;
+
 import com.dft.onyx.enroll.util.imageareas.EnumFinger;
-import com.dft.onyx.wizardroid.enrollwizard.SelfEnrollWizardActivity;
+
 import java.io.File;
 
 public class EnrollWizardBuilder_ {

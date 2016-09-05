@@ -84,12 +84,12 @@
         "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.dft.android\\onyx-enroll-wizard\\4.1.3\\res\\layout\\help_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\preview_fingerprint_layout.xml",
-        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.dft.android\\onyx-enroll-wizard\\4.1.3\\res\\layout\\preview_fingerprint_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.0\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\preview_fingerprint_layout.xml",
+        "source": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured\\onyxenrollwizardsampleapp\\build\\intermediates\\exploded-aar\\com.dft.android\\onyx-enroll-wizard\\4.1.3\\res\\layout\\preview_fingerprint_layout.xml"
     },
     {
         "merged": "C:\\Users\\Ayokunle\\Dropbox\\Coding\\HopeSecured\\onyxenrollwizardsampleapp\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_enroll.xml",

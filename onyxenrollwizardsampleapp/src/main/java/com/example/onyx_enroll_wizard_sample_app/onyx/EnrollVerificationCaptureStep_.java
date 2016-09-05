@@ -29,6 +29,7 @@ import com.dft.onyx.verify.VerifyFingerprintTemplateVectorTask.TemplateVectorRes
 import com.dft.onyx.wizardroid.ContextVariable;
 import com.dft.onyx.wizardroid.WizardActivity;
 import com.dft.onyx.wizardroid.WizardStep;
+import com.dft.onyx.wizardroid.enrollwizard.EnrollVerificationCaptureStep;
 import com.dft.onyx.wizardroid.enrollwizard.EnrollWizard;
 import com.dft.onyx.wizardroid.enrollwizard.EnrollWizard.EnrollmentCallback;
 import com.dft.onyxcamera.ui.CaptureMetrics;
@@ -102,11 +103,23 @@ public class EnrollVerificationCaptureStep_ extends WizardStep implements Templa
                 if(!EnrollVerificationCaptureStep_.this.fingerprintTemplateAlreadyCaptured) {
                     EnrollVerificationCaptureStep_.this.mVerificationFingerprintTemplate = fingerprintTemplate;
                     if(null != EnrollVerificationCaptureStep_.this.bestEnrollmentMetricsArray) {
-                        EnrollVerificationCaptureStep_.this.mGallery = new FingerprintTemplateVector((long)EnrollVerificationCaptureStep_.this.bestEnrollmentMetricsArray.length);
+                        EnrollVerificationCaptureStep_.this.mGallery =
+                                new FingerprintTemplateVector((long)EnrollVerificationCaptureStep_
+                                        .this
+                                        .bestEnrollmentMetricsArray.length);
 
                         for(int vftvt = 0; vftvt < EnrollVerificationCaptureStep_.this.mGallery.size(); ++vftvt) {
                             if(null != EnrollVerificationCaptureStep_.this.bestEnrollmentMetricsArray[vftvt]) {
-                                EnrollVerificationCaptureStep_.this.mGallery.set(vftvt, EnrollVerificationCaptureStep_.this.bestEnrollmentMetricsArray[vftvt].getFingerprintTemplateArray()[0]);
+                                EnrollVerificationCaptureStep_
+                                        .this
+                                        .mGallery
+                                        .set(
+                                                vftvt,
+                                                EnrollVerificationCaptureStep_
+                                                        .this.bestEnrollmentMetricsArray[vftvt]
+                                                        .getFingerprintTemplateArray()[0]
+                                        );
+
                             }
                         }
                     }

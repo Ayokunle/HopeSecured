@@ -5,6 +5,7 @@ package com.example.onyx_enroll_wizard_sample_app.onyx;
  */
 
 import android.os.Bundle;
+
 import com.dft.onyx.enroll.util.imageareas.EnumFinger;
 import com.dft.onyx.onyx_enroll_wizard.R.id;
 import com.dft.onyx.onyx_enroll_wizard.R.layout;
@@ -13,7 +14,6 @@ import com.dft.onyx.wizardroid.WizardFlow.Builder;
 import com.dft.onyx.wizardroid.enrollwizard.EnrollFingerSelect;
 import com.dft.onyx.wizardroid.enrollwizard.EnrollStepCapture;
 import com.dft.onyx.wizardroid.enrollwizard.EnrollVerificationCaptureStep;
-import com.dft.onyx.wizardroid.enrollwizard.EnrollVerificationLastStep;
 import com.dft.onyx.wizardroid.enrollwizard.EnrollWizard;
 import com.dft.onyx.wizardroid.enrollwizard.Enrollable;
 
