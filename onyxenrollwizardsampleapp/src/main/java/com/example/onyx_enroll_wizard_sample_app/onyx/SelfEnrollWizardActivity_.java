@@ -7,17 +7,12 @@ package com.example.onyx_enroll_wizard_sample_app.onyx;
 import android.os.Bundle;
 
 import com.dft.onyx.enroll.util.imageareas.EnumFinger;
-import com.dft.onyx.onyx_enroll_wizard.R.id;
-import com.dft.onyx.onyx_enroll_wizard.R.layout;
 import com.dft.onyx.wizardroid.WizardFlow;
 import com.dft.onyx.wizardroid.WizardFlow.Builder;
-import com.dft.onyx.wizardroid.enrollwizard.EnrollFingerSelect;
-import com.dft.onyx.wizardroid.enrollwizard.EnrollStepCapture;
-import com.dft.onyx.wizardroid.enrollwizard.EnrollVerificationCaptureStep;
-import com.dft.onyx.wizardroid.enrollwizard.EnrollWizard;
 import com.dft.onyx.wizardroid.enrollwizard.Enrollable;
+import com.example.onyx_enroll_wizard_sample_app.R;
 
-public class SelfEnrollWizardActivity_ extends EnrollWizard implements Enrollable {
+public class SelfEnrollWizardActivity_ extends EnrollWizard_ implements Enrollable {
     private int layoutResourceId;
     private String onyxLicenseKey;
     private String uid = null;
@@ -27,16 +22,16 @@ public class SelfEnrollWizardActivity_ extends EnrollWizard implements Enrollabl
     }
 
     protected void onCreate(Bundle savedInstanceState) {
-        this.setContentViewId(layout.base_layout);
+        this.setContentViewId(R.layout.base_layout);
         int numCaptureSteps = this.getIntent().getExtras().getInt("num_enroll_capture_steps");
         this.setFingerToEnroll(this.getFingerToEnroll());
         Builder builder = (new Builder())
                 .setActivity(this)
-                .setContainerId(id.step_container)
-                .addStep(EnrollFingerSelect.class);
+                .setContainerId(R.id.step_container)
+                .addStep(EnrollFingerSelect_.class);
 
         for(int i = 0; i < numCaptureSteps; ++i) {
-            builder.addStep(EnrollStepCapture.class);
+            builder.addStep(EnrollStepCapture_.class);
             this.setNumStepsBeforeEnrollStepCapture(1);
         }
 

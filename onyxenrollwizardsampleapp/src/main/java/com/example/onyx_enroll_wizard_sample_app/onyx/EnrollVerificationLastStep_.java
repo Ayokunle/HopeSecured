@@ -30,13 +30,11 @@ import com.dft.onyx.enroll.util.EnrollmentMetric;
 import com.dft.onyx.enroll.util.RestoreBitmap;
 import com.dft.onyx.enroll.util.SaveEnrollmentMetricTask.SaveEnrollmentMetricCallback;
 import com.dft.onyx.onyx_enroll_wizard.R.color;
-import com.dft.onyx.onyx_enroll_wizard.R.id;
-import com.dft.onyx.onyx_enroll_wizard.R.layout;
 import com.dft.onyx.onyx_enroll_wizard.R.string;
-import com.dft.onyx.wizardroid.ContextVariable;
 import com.dft.onyx.wizardroid.WizardActivity;
 import com.dft.onyx.wizardroid.WizardStep;
 import com.dft.onyx.wizardroid.enrollwizard.EnrollWizard;
+import com.example.onyx_enroll_wizard_sample_app.R;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -87,14 +85,14 @@ public class EnrollVerificationLastStep_ extends WizardStep {
     }
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View v = inflater.inflate(layout.confirm_or_fail_layout, container, false);
+        View v = inflater.inflate(R.layout.confirm_or_fail_layout, container, false);
         this.mContext = this.mWizardActivity = (WizardActivity)this.getActivity();
         if(null != this.mWizardActivity.getActionBar()) {
             this.mWizardActivity.getActionBar().hide();
         }
 
-        this.mFingerprintView1 = (ImageView)v.findViewById(id.confirm_or_fail_fingerprint_image_1);
-        this.mFingerprintView2 = (ImageView)v.findViewById(id.confirm_or_fail_fingerprint_image_2);
+        this.mFingerprintView1 = (ImageView)v.findViewById(R.id.confirm_or_fail_fingerprint_image_1);
+        this.mFingerprintView2 = (ImageView)v.findViewById(R.id.confirm_or_fail_fingerprint_image_2);
         return v;
     }
 

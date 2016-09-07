@@ -1,24 +1,15 @@
 package com.example.onyx_enroll_wizard_sample_app;
 
-import android.app.AlertDialog;
 import android.app.ListActivity;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
-import android.widget.Toast;
 
 import com.dft.onyx.core;
-import com.dft.onyx.enroll.util.Consts;
-import com.dft.onyx.wizardroid.enrollwizard.EnrollWizardBuilder;
+import com.example.onyx_enroll_wizard_sample_app.onyx.EnrollWizardBuilder_;
 
 import org.opencv.android.OpenCVLoader;
-
-import java.io.File;
 
 /**
  * Created by Ayokunle on 05/09/2016.
@@ -49,10 +40,10 @@ public class LaunchVerificationScannerActivity extends ListActivity {
     }
 
     static public Intent getSelfEnrollIntent(Context context, String onyxLicenseKey) {
-        return (new EnrollWizardBuilder())
+        return (new EnrollWizardBuilder_())
                 .setNumEnrollScales(2)
                 .setLicenseKey(onyxLicenseKey)
-                .setUseOnyxGuide(true, true, true)
+                .setUseOnyxGuide(false, true, false)
                 .setUseSelfEnroll(true)
                 .build(context);
     }

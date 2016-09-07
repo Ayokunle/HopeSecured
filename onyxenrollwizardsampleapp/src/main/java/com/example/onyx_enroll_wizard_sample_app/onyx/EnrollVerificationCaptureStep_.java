@@ -22,14 +22,10 @@ import com.dft.onyx.enroll.util.OnyxFragmentBuilder;
 import com.dft.onyx.enroll.util.ProgressLayoutUtil;
 import com.dft.onyx.enroll.util.SetFingerprintLocation;
 import com.dft.onyx.enroll.util.imageareas.EnumFinger;
-import com.dft.onyx.onyx_enroll_wizard.R.id;
-import com.dft.onyx.onyx_enroll_wizard.R.layout;
 import com.dft.onyx.verify.VerifyFingerprintTemplateVectorTask;
 import com.dft.onyx.verify.VerifyFingerprintTemplateVectorTask.TemplateVectorResultCallback;
-import com.dft.onyx.wizardroid.ContextVariable;
 import com.dft.onyx.wizardroid.WizardActivity;
 import com.dft.onyx.wizardroid.WizardStep;
-import com.dft.onyx.wizardroid.enrollwizard.EnrollVerificationCaptureStep;
 import com.dft.onyx.wizardroid.enrollwizard.EnrollWizard;
 import com.dft.onyx.wizardroid.enrollwizard.EnrollWizard.EnrollmentCallback;
 import com.dft.onyxcamera.ui.CaptureMetrics;
@@ -37,6 +33,8 @@ import com.dft.onyxcamera.ui.OnyxFragment;
 import com.dft.onyxcamera.ui.OnyxFragment.CaptureAnimationCallback;
 import com.dft.onyxcamera.ui.OnyxFragment.FingerprintTemplateCallback;
 import com.dft.onyxcamera.ui.OnyxFragment.ProcessedBitmapCallback;
+import com.example.onyx_enroll_wizard_sample_app.R;
+
 import java.io.File;
 
 public class EnrollVerificationCaptureStep_ extends WizardStep implements TemplateVectorResultCallback, EnrollmentCallback {
@@ -136,7 +134,7 @@ public class EnrollVerificationCaptureStep_ extends WizardStep implements Templa
     }
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View v = inflater.inflate(layout.base_layout, container, false);
+        View v = inflater.inflate(R.layout.base_layout, container, false);
         this.mContext = this.mWizardActivity = (WizardActivity)this.getActivity();
         this.mInstance = this;
         if(null != this.mWizardActivity.getActionBar()) {
@@ -213,6 +211,15 @@ public class EnrollVerificationCaptureStep_ extends WizardStep implements Templa
     }
 
     private void setupOnyxFragment() {
-        this.mFragment = (new OnyxFragmentBuilder(this.mWizardActivity, id.fragment_content)).setEnrollmentMetric(this.bestEnrollmentMetric).setProcessedBitmapCallback(this.mProcessedBitmapCallback).setFingerprintTemplateCallback(this.mFingerprintTemplateCallback).setCaptureAnimationCallback(this.mCaptureAnimationCallback).setUseFingerReticleView().setWizard(this.mWizardActivity.getWizard()).build();
+        this.mFragment = (new OnyxFragmentBuilder(this.mWizardActivity,
+                R.id.fragment_content))
+                .setEnrollmentMetric(this.bestEnrollmentMetric)
+                .setProcessedBitmapCallback(this.mProcessedBitmapCallback)
+                .setFingerprintTemplateCallback(this.mFingerprintTemplateCallback)
+                .setCaptureAnimationCallback(this.mCaptureAnimationCallback)
+                .setUseFingerReticleView()
+                .setWizard(this.mWizardActivity
+                        .getWizard())
+                .build();
     }
 }
